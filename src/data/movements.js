@@ -56,5 +56,19 @@ export const movementsData = [
     description: 'Retiro para gastos personales',
     amount: 100.00,
     date: '2025-12-08'
+  },
+  {
+    id: 9,
+    type: 'refund',
+    description: 'Reembolso por devolución de producto',
+    amount: 90.00,
+    date: '2025-12-09'
+  },
+  {
+    id: 10,
+    type: 'chargeback',
+    description: 'Contracargo por reclamo de transacción',
+    amount: 120.00,
+    date: '2025-12-10'
   }
 ];
